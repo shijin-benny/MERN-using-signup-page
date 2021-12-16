@@ -32,7 +32,7 @@ function App(){
            <div className="container mt-5">
                <div className="form-div">
                <form onSubmit={submitForm}>
-                   <h1 className="d-flex justify-content-centre">Signup page</h1>
+                   <h1 >Signup page</h1>
                    <input type="text" className="form-control form group mt-2" placeholder="full Name" values={fullName} onChange={(e)=>setfullName(e.target.value)}/>
                    <input type="text" className="form-control form group mt-2" placeholder="username" values={username} onChange={(e)=>setuserName(e.target.value)}/>
                    <input type="text" className="form-control form group mt-2" placeholder="Email" values={email} onChange={(e)=>setEmail(e.target.value)}/>
